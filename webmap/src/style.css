@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.toolbar {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 10px 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.toolbar h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.toolbar p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #444;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
