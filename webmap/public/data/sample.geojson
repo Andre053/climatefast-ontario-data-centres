@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "name": "Sample Area A",
+        "description": "Replace this with your own GeoJSON attributes."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.455, 37.787],
+            [-122.423, 37.787],
+            [-122.423, 37.765],
+            [-122.455, 37.765],
+            [-122.455, 37.787]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "name": "Sample Area B",
+        "description": "Click polygons to show a popup."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.408, 37.783],
+            [-122.38, 37.783],
+            [-122.38, 37.761],
+            [-122.408, 37.761],
+            [-122.408, 37.783]
+          ]
+        ]
+      }
+    }
+  ]
+}
